@@ -6,7 +6,7 @@ Anchor-SS
 `charm-crypto`
 
 
-The installation steps can be found at the following link :  [charm-crypto]("https://blog.csdn.net/qq_34823530/article/details/96605662")
+The installation steps can be found at the following link :  [charm-crypto](https://blog.csdn.net/qq_34823530/article/details/96605662)
 
 ### Instructions  
  The **kn** in *ss_xor_encrypt.cc* and *ss_xor_decrypt.cc* is the order of the XOR matrix, that is, the value of **m**. **N** is the number of ones.  
