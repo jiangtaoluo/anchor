@@ -13,8 +13,8 @@ The installation steps can be found at the following link :  [charm-crypto](http
  !!!!!!!!!When you want to change m and the corresponding matrix, you need to replace kn, **a[kn][kn]**  in the two files and the value **m** in the *t.py*.  
  The **a[kn][kn]** matrix in *encrypt.cc* is the inverse of which in the *decrypt.cc*. For the convenience of matrix find, *decrypt.cc*'s decryption matrix is taken from the upper triangular matrix by various column transformation. The determinant of both matrices is 1 or -1, and the decryption matrix has to make sure that a centain columns are all 1. We have built several **a[kn][kn]** matrices for fixed m and N into *encrypt.cc* and *decrypt.cc* for testing purposes.
 ### Steps  
-1. Generate a block of a certain block size that you want to test in the project folder
-`dd if=/dev/zero of=b.txt bs=1M count=50`
+1. Generate a block of a certain block size that you want to test in the project folder  
+`dd if=/dev/zero of=b.txt bs=1M count=50`  
 and we set this block named ***b.txt***,blocksize=bs * count.
 1. Modify source file  
 For different experiment purpose, we can set diffrent m and a[kn][kn].
