@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo
+./process.py Record.log Record.out
